@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "MS Sign-in AutoClick",
+  "version": "0.1.0",
+  "description": "Automatically clicks the Sign in button on teams.cloud.microsoft to dismiss repeated sign-in prompts.",
+  "content_scripts": [
+    {
+      "matches": ["https://teams.cloud.microsoft/*"],
+      "js": ["content_script.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "host_permissions": [
+    "https://teams.cloud.microsoft/*"
+  ]
+}
