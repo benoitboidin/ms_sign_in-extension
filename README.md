@@ -1,5 +1,7 @@
 # MS Sign-in AutoClick
 
+![Icon](icon128.png)
+
 Small Chrome extension (Manifest V3) that auto-clicks "Sign in" prompts on https://teams.cloud.microsoft/.
 
 Installation
@@ -24,4 +26,5 @@ Notes and safety
 Files
 - manifest.json
 - content_script.js
-- icon128.png (optional)
+- teams_pirate.ico (Original icon source)
+- icon16.png, icon32.png, icon48.png, icon128.png (Generated for browser compatibility)
