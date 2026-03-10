@@ -3,6 +3,12 @@
   "name": "MS Sign-in AutoClick",
   "version": "0.1.0",
   "description": "Automatically clicks the Sign in button on teams.cloud.microsoft to dismiss repeated sign-in prompts.",
+  "icons": {
+    "16": "teams_pirate.ico",
+    "32": "teams_pirate.ico",
+    "48": "teams_pirate.ico",
+    "128": "teams_pirate.ico"
+  },
   "content_scripts": [
     {
       "matches": ["https://teams.cloud.microsoft/*"],
