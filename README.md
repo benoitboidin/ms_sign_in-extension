@@ -5,9 +5,13 @@
 Small Chrome extension (Manifest V3) that auto-clicks "Sign in" prompts on https://teams.cloud.microsoft/.
 
 Installation
-- Open Chrome and go to chrome://extensions/
-- Enable "Developer mode" (top-right).
-- Click "Load unpacked" and select this folder: modules/ms_sign_in-extension
+You can install the extension either from the Chrome Web Store or manually from this repository:
+
+- Chrome Web Store: https://chromewebstore.google.com/detail/habdgngbinfgnmhlfcodelkenpkjkaij?utm_source=item-share-cb
+- Manual (from source):
+  - Open Chrome and go to chrome://extensions/
+  - Enable "Developer mode" (top-right).
+  - Click "Load unpacked" and select this folder: modules/ms_sign_in-extension
 
 Behavior
 - Injects content_script.js on pages under https://teams.cloud.microsoft/*
